@@ -111,6 +111,12 @@ a:hover{
         
         height: 9.3em;
     }
+    header{
+        background-color:  #1B8B8F;
+    }
+    body{
+        width: auto;
+    }
    
 }
 
