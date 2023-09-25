@@ -92,3 +92,26 @@ section h2{
 a:hover{
     background-color:#8D7366 ;
 }
+
+/*intégration @media query*/
+
+@media screen and (max-width:960px){
+    section, aside{
+        width: 100%;
+    }
+}
+@media screen and (max-width:560px){
+    section{
+        width: 100%;
+    }
+    aside{
+        display: none;
+    }
+    nav{
+        
+        height: 9.3em;
+    }
+   
+}
+
+
